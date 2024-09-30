@@ -7,6 +7,10 @@ run = "pnpm sherif --fix --no-install"
 [pre-commit.commands.check]
 run = "pnpm check && git update-index --again"
 
+[pre-commit.commands.check-toml]
+glob = "*.toml"
+run = "pnpm taplo check"
+
 [commit-msg.scripts."commitlint.sh"]
 runner = "bash"
 
