@@ -1,0 +1,12 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer",
+  },
+  "rust-analyzer.check.command": "clippy",
+  "editor.codeActionsOnSave": {
+    "source.organizeImports.biome": "always",
+    "source.organizeImports": "always"
+  }
+}

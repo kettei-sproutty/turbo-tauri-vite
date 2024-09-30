@@ -1,0 +1,20 @@
+{
+  "name": "tailwind-config",
+  "version": "0.0.0",
+  "private": true,
+  "license": "Dual MIT/Apache-2.0",
+  "exports": {
+    "./tailwind": {
+      "default": "./tailwind.config.js",
+      "types": "./tailwind.config.d.ts"
+    },
+    "./postcss": "./postcss.config.js",
+    "./styles": "./globals.css"
+  },
+  "peerDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "postcss-import": "^16.1.0",
+    "tailwindcss": "^3.4.13"
+  }
+}

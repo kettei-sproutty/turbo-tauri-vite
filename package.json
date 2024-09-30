@@ -1,0 +1,25 @@
+{
+  "name": "turbo-tauri-vite",
+  "private": true,
+  "version": "0.0.0",
+  "packageManager": "pnpm@9.11.0",
+  "engines": {
+    "node": ">= 20"
+  },
+  "license": "Dual MIT/Apache-2.0",
+  "scripts": {
+    "check": "turbo run check",
+    "prepare": "lefthook install",
+    "dev": "turbo run dev",
+    "build": "turbo run build"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.5.0",
+    "@commitlint/config-conventional": "^19.5.0",
+    "@types/node": "^22.7.4",
+    "conventional-changelog-cli": "^5.0.0",
+    "lefthook": "^1.7.17",
+    "sherif": "^1.0.0",
+    "turbo": "^2.1.2"
+  }
+}

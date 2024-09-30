@@ -1,0 +1,19 @@
+{
+  "name": "tauri",
+  "version": "0.1.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "dev": "tauri dev",
+    "build": "tauri build",
+    "tauri": "tauri",
+    "check": "cargo clippy"
+  },
+  "license": "Dual MIT/Apache-2.0",
+  "dependencies": {
+    "app": "workspace:*"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": ">=2.0.0-rc.0"
+  }
+}
